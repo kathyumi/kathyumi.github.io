@@ -58,6 +58,8 @@
 .conteudos {
 	background-color: #FCFBF9;
 }
+
+
 /*os queridinhos (destaque)*/
 .destaque {
 	height: 35rem;
@@ -185,8 +187,35 @@ button {
 }
 
 
+/* hover a, pon=branco, pen=preto, pin é do footer */
 
+.pon {
+	color: #fff;
+	text-decoration: none;
+}
 
+.pon:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pen {
+	color: #000;
+	text-decoration: none;
+}
+
+.pen:hover {
+	color: #000;
+	text-decoration: none;
+}
+
+.pin {
+	color: #7f7f7f ;
+}
+.pin:hover {
+	text-decoration: none;
+	color: 	#0f0f0f;
+}
 /**** BTN No. 6 ****/
 
 .btn-6 {
@@ -256,7 +285,7 @@ button {
   width: 100%;
 }
 
-.btn-6:focus{
+.btn-6:active{
 	background-color: #000;
 	color: #fff;
 }
@@ -329,7 +358,7 @@ button {
   width: 100%;
 }
 
-.btn-6b:focus{
+.btn-6b:active{
 	background-color: #fff;
 	color: #000;
 }
@@ -368,3 +397,80 @@ button {
   right: 0%;
 }
 
+/* footer */
+/*form*/
+
+.formnewsletter {
+	width: 20rem;
+}
+
+input[type=text], input[type=submit] {
+
+  padding: 0.5rem;
+  margin: 0.2rem; 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=text]{
+  width: 100%;
+}
+
+input[type=submit]{
+  width: 50%;
+}
+
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+#newsletter {
+	font-size: 1.1rem;
+}
+
+#newsletterinfo {
+	font-size: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+
+
+/* footer geral*/
+#footer1, #footer2{
+	list-style: none;
+	margin-right: 2rem;
+}
+
+#footer2 {
+
+}
+
+.titlefooter {
+	font-size: 1.1rem;
+}
+
+.topicfooter {
+	font-size: 0.8rem;
+	color: #7f7f7f;
+}
+
+.topicfooter:hover {
+	color: 	#0f0f0f;	
+}
+/*redes sociais*/
+.rsi {
+	color: #7f7f7f;
+	margin-right: 0.3rem;
+}
+
+.rsi:hover {
+	color: 	#0f0f0f;
+	margin-right: 0.3rem;
+} 
