@@ -45,6 +45,11 @@
 	background-color: #FCFBF9;
 }
 /*carrossel*/
+
+.carousel-title {
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+}
 #carouselCoven {
 	margin-bottom: 3rem;
 	min-height: 10rem;
