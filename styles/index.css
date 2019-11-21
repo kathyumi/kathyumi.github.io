@@ -49,6 +49,7 @@
 .carousel-title {
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 600;
+  font-size: 1.7rem;
 }
 #carouselCoven {
 	margin-bottom: 3rem;
@@ -112,6 +113,7 @@
 .titlecha {
 	color: #0f0f0f;
 	font-size: 1.1rem;
+  font-weight: 500;
 	margin-bottom: 0.2rem;
 }
 .preco {
@@ -364,7 +366,7 @@ button {
 }
 
 .btn-6b:active{
-	background-color: #fff;
+	background-color: #000;
 	color: #000;
 }
 

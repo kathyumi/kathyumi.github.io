@@ -1,0 +1,53 @@
+
+/* navbar */
+.navbar {
+    background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	top: 0;
+	height: 4rem;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+} 
+
+.navbar-nav {
+	padding-left: 0.2rem;
+}
+
+
+.nav-item {
+	padding-right: 1.5rem;
+	padding-left: 0.2rem;
+	font-size: 0.85rem;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+}
+
+#NavDropdown {
+	color: #ffff;
+}
+
+.dropdown-item {
+	font-size: 0.7rem;
+	background-color: #FCFBF9;
+	padding-left: 0.1rem;
+}
+
+/*tudo*/
+.tudo {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FCFBF9;
+}
+
+#bgproduct {
+	background-color: #ffcad4;
+	width: 100%;
+	height: 46rem;
+}
+
+.imagepouch {
+	width: 100%;
+	height: 35rem;
+}

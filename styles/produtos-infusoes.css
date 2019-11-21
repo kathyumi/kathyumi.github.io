@@ -103,8 +103,10 @@
 .titlecha {
 	color: #0f0f0f;
 	font-size: 1.1rem;
+  font-weight: 500;
 	margin-bottom: 0.2rem;
 }
+
 .preco {
 	color: #4a4a4a;
 	font-size: 0.9rem;
@@ -137,7 +139,6 @@ button {
   position: relative;
   display: inline-block;
 }
-
 
 /**** BTN No. 11 rosa****/
 .btn-11r {
@@ -173,6 +174,35 @@ button {
   right: 0%;
 }
 
+/* hover a, pon=branco, pen=preto, pin é do footer */
+
+.pon {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pon:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pen {
+	color: #000;
+	text-decoration: none;
+}
+
+.pen:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pin {
+	color: #7f7f7f ;
+}
+.pin:hover {
+	text-decoration: none;
+	color: 	#0f0f0f;
+}
 /* footer */
 /*form*/
 
@@ -251,35 +281,6 @@ input[type=submit]:hover {
 	margin-right: 0.3rem;
 } 
 
-/* hover a, pon=branco, pen=preto, pin é do footer */
-
-.pon {
-	color: #fff;
-	text-decoration: none;
-}
-
-.pon:hover {
-	color: #fff;
-	text-decoration: none;
-}
-
-.pen {
-	color: #000;
-	text-decoration: none;
-}
-
-.pen:hover {
-	color: #000;
-	text-decoration: none;
-}
-
-.pin {
-	color: #7f7f7f ;
-}
-.pin:hover {
-	text-decoration: none;
-	color: 	#0f0f0f;
-}
 
 /* margin bottom page */
 	.mgbottom {
