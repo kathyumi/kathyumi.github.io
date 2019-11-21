@@ -1,9 +1,15 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-    <!-- Meta tags Obrigatórias -->
+  	<!-- Meta tags Obrigatórias -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+     <!-- fontawesome-->
+  	<script src="https://kit.fontawesome.com/352a12bfbd.js" crossorigin="anonymous"></script>
+  	<!-- fontes -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
 
   	<!--favicon-->
 	<link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
@@ -23,18 +29,17 @@
 	<meta name="msapplication-TileColor" content="#ffffff">
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
-
-	 <!-- meu css -->
-  	<link rel="stylesheet" type="text/css" href="styles/produtos-infusoes.css">
-  	<!-- fontawesome-->
-  	<script src="https://kit.fontawesome.com/352a12bfbd.js" crossorigin="anonymous"></script>
-  	<!-- fontes -->
-	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,600,700&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-	<link href="https://fonts.googleapis.com/css?family=Allura&display=swap" rel="stylesheet">
+  	<!-- meu css -->
+  	<link rel="stylesheet" type="text/css" href="styles/index.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+    <!--Animate CSS-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
+    <!--AOS animate-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
 	<title>Blends | Coven Tea</title>
 
@@ -98,11 +103,11 @@
 <main id="#">
 	<!--destaques-->
 	<div class="container mainhome destaquerow">
-		<div class="row align-items-center">
+		<div data-aos="fade-up" data-aos-duration="1000"class="row align-items-center">
 			<div class="container-fluid col-xs-col-2 col-lg-4 col-md-8 col-sm-10" id="texto-destaques">
 				<div class="align-items-center">
-				<h1 id="queridinhos" class="text-center"><span lang="en">blends</span></h1>
-				<p class="text-center">Produtos mais vendidos nas últimas semanas.</p>
+				<h1 data-aos="zoom-in" data-aos-duration="500" id="queridinhos" class="text-center"><span lang="en">blends</span></h1>
+				<p data-aos="zoom-in" data-aos-duration="1000" class="text-center">Produtos mais vendidos nas últimas semanas.</p>
 				</div>
 			</div>
 			<figure class="destaques col-lg-4 col-md-8 col-sm-10 dproduto">
@@ -111,9 +116,7 @@
 				<div>
 					<h2 class="titlecha">SAKURA SENCHA</h2>
 					<h3 class="preco">R$65,00</h3>
-					<form method="get" action="produto-sakurasencha.html">
 					<a class="custom-btn btn-11r pen" href="produto-sakurasencha.html">Ver Produto</a>
-					</form>
 				</div>
 			</div>
 			</figure>
@@ -132,7 +135,7 @@
 
 
 <div class="container mainhome destaquerow2">
-			<div class="row align-items-center">
+			<div data-aos="fade-up" data-aos-duration="1000" class="row align-items-center">
 			<figure class="destaques col-lg-4 col-md-8 col-sm-10 dproduto">
 				<a href="#"><img class="produtoimagem destaque img-fluid" src="imgs/chas/senchaa.png" alt="Pacote de sentchá"></a>
 				<div class="middle">
@@ -203,8 +206,8 @@
 					    <p id="newsletterinfo">Se inscreva para receber os melhores conteúdos gratuitos e dicas sobre chás diretamente no seu e-mail.</p>
 					  </div>
 					  <div class="container" style="background-color:white">
-					  	<label><span class="sr-only">Digite seu e-mail.</span>
-					    <input type="text" placeholder="Endereço de e-mail" name="mail" required>
+					  	<label for="mail"><span class="sr-only">Digite seu e-mail.</span>
+					    <input id="email" type="text" placeholder="Endereço de e-mail" name="mail" required>
 						</label>
 					   </div>
 					   <div class="container">
@@ -225,7 +228,11 @@
 
 
 
-
+	<!-- Animate AOS js -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+  		AOS.init();
+	</script>
 
     <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
