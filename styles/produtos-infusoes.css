@@ -56,10 +56,6 @@
 	width: 100%;
 }
 
-.mainhome {
-
-	margin-bottom: 3rem;
-}
 
 #queridinhos {
 	font-family: 'Allura', cursive;
@@ -77,8 +73,8 @@
 }
 
 .destaquerow {
-	margin-bottom: 1rem;
 	margin-top: 8rem;
+	margin-bottom: 0.43rem;
 }
 
 .destaquerow2 {

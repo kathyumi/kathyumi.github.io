@@ -41,13 +41,20 @@
 	background-color: #FCFBF9;
 }
 
-#bgproduct {
+.imagepouch {
+	width: 100%;
+	height: 35rem;
+}
+
+
+
+
+
+/* backgrounds */
+
+#bgproduct1 {
 	background-color: #ffcad4;
 	width: 100%;
 	height: 46rem;
 }
 
-.imagepouch {
-	width: 100%;
-	height: 35rem;
-}
