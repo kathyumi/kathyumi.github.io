@@ -167,7 +167,7 @@
 
 
 .vermais {
-	margin: auto;
+	margin: 0 auto;
 }
 
 /* margin bottom page */
@@ -484,3 +484,7 @@ input[type=submit]:hover {
 	color: 	#0f0f0f;
 	margin-right: 0.3rem;
 } 
+
+.fixalinhamento {
+  text-align: center;
+}
