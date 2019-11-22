@@ -285,6 +285,6 @@ input[type=submit]:hover {
 /* pular */
 
 #subtitle {
-	font-size: 1rem;
+	font-size: 1rem !important;
 	font-weight: 500;
 }
