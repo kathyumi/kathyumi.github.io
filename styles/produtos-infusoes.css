@@ -236,6 +236,8 @@ input[type=submit]:hover {
 }
 #newsletter {
 	font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 #newsletterinfo {
@@ -250,22 +252,23 @@ input[type=submit]:hover {
 	margin-right: 2rem;
 }
 
-#footer2 {
-
-}
 
 .titlefooter {
 	font-size: 1.1rem;
+	font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topicfooter {
-	font-size: 0.8rem;
-	color: #7f7f7f;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #7f7f7f;
 }
 
 .topicfooter:hover {
-	color: 	#0f0f0f;	
+	color: 	#0f0f0f !important;	
 }
+
 /*redes sociais*/
 .rsi {
 	color: #7f7f7f;
@@ -282,6 +285,7 @@ input[type=submit]:hover {
 	.mgbottom {
 		height: 5rem;
 	}
+
 /* pular */
 
 #subtitle {

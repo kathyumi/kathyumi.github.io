@@ -21,15 +21,6 @@ button {
   display: inline-block;
 }
 
-.pen {
-	color: #000;
-	text-decoration: none;
-}
-
-.pen:hover {
-	color: #000;
-	text-decoration: none;
-}
 /**** BTN No. 6 ****/
 
 .btn-6 {
@@ -175,6 +166,19 @@ button {
 	color: #0f0f0f;	
 }
 
+#titulo:hover {
+  text-decoration: none;
+}
+
+#idodtitulo {
+  font-weight: 600;
+  color: #0f0f0f; 
+}
+
+#idodtitulo:hover {
+  text-decoration: none;
+}
+
 .textocorrido {
 	margin-left: 0.3rem;
 	margin-top: 1rem;
@@ -238,6 +242,8 @@ input[type=submit]:hover {
 }
 #newsletter {
 	font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
 }
 
 #newsletterinfo {
@@ -256,11 +262,13 @@ input[type=submit]:hover {
 .titlefooter {
 	font-size: 1.1rem;
 	font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .topicfooter {
-	font-size: 0.8rem !important;
-	color: #7f7f7f !important;
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #7f7f7f;
 }
 
 .topicfooter:hover {
@@ -283,3 +291,35 @@ input[type=submit]:hover {
 	.mgbottom {
 		height: 5rem;
 	}
+
+/* teste */
+
+/* hover a, pon=branco, pen=preto, pin é do footer */
+
+.pon {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pon:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pen {
+  color: #000;
+  text-decoration: none;
+}
+
+.pen:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.pin {
+  color: #7f7f7f ;
+}
+.pin:hover {
+  text-decoration: none;
+  color:  #0f0f0f;
+}
