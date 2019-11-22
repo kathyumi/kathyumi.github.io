@@ -1,3 +1,114 @@
+/* botões*/
+
+/* botoes especiais */
+.buttons-coll {
+  width: 90%;
+  margin: 50px auto;
+  text-align: center;
+}
+button {
+  margin: 20px;
+}
+.custom-btn {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.pen {
+	color: #000;
+	text-decoration: none;
+}
+
+.pen:hover {
+	color: #000;
+	text-decoration: none;
+}
+/**** BTN No. 6 ****/
+
+.btn-6 {
+	margin: auto;
+}
+
+.btn-6 {
+  width: 130px;
+  height: 40px;
+  line-height: 42px;
+  padding: 0;
+  border: none;
+
+}
+.btn-6 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-6:before,
+.btn-6:after {
+  position: absolute;
+  content: "";
+  height: 0%;
+  width: 2px;
+  background: #000;
+}
+.btn-6:before {
+  right: 0;
+  top: 0;
+  transition: all 0.1s ease;
+}
+.btn-6:after {
+  left: 0;
+  bottom: 0;
+  transition: all 0.1s 0.2s ease;
+}
+.btn-6:hover:before {
+  transition: all 0.1s 0.2s ease;
+  height: 100%;
+}
+.btn-6:hover:after {
+  transition: all 0.1s ease;
+  height: 100%;
+}
+.btn-6 span:before,
+.btn-6 span:after {
+  position: absolute;
+  content: "";
+  background: #000;
+}
+.btn-6 span:before {
+  left: 0;
+  top: 0;
+  width: 0%;
+  height: 2px;
+  transition: all 0.1s 0.1s ease;
+}
+.btn-6 span:after {
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+}
+.btn-6 span:hover:before {
+  width: 100%;
+}
+
+.btn-6:active{
+	background-color: #000;
+	color: #fff;
+}
+
+.vermais {
+	margin: 0 auto;
+}
+
+
 
 /* navbar */
 .navbar {
@@ -85,18 +196,93 @@
 	font-weight: 600;
 }
 
-/* agendarrrr */
 
+.fixalinhamento {
+  text-align: center;
+}
 
-.content {
-  background: #fff;
-  border-radius: 3px;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075), 0 2px 4px rgba(0, 0, 0, 0.0375);
-  padding: 30px 30px 20px;
+/* footer */
+/*form*/
+
+.formnewsletter {
+	width: 20rem;
+}
+
+input[type=text], input[type=submit] {
+
+  padding: 0.5rem;
+  margin: 0.2rem; 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=text]{
+  width: 100%;
+}
+
+input[type=submit]{
+  width: 50%;
 }
 
 
-.content {
-	margin-top: 8rem;
-	margin-bottom: 8rem;
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  border: none;
+  font-family: 'Roboto', sans-serif;
 }
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+#newsletter {
+	font-size: 1.1rem;
+}
+
+#newsletterinfo {
+	font-size: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+
+
+/* footer geral*/
+#footer1, #footer2{
+	list-style: none;
+	margin-right: 2rem;
+}
+
+#footer2 {
+
+}
+
+.titlefooter {
+	font-size: 1.1rem;
+	font-weight: 600;
+}
+
+.topicfooter {
+	font-size: 0.8rem;
+	color: #7f7f7f;
+}
+
+.topicfooter:hover {
+	color: 	#0f0f0f;	
+}
+
+/*redes sociais*/
+.rsi {
+	color: #7f7f7f;
+	margin-right: 0.3rem;
+}
+
+.rsi:hover {
+	color: 	#0f0f0f;
+	margin-right: 0.3rem;
+} 
+
+
+/* margin bottom page */
+	.mgbottom {
+		height: 5rem;
+	}
