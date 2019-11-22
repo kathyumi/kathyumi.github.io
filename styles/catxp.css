@@ -1,0 +1,102 @@
+
+/* navbar */
+.navbar {
+    background-color: #fff;
+	box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+	top: 0;
+	height: 4rem;
+
+}
+
+.dropdown:hover>.dropdown-menu {
+  display: block;
+} 
+
+.navbar-nav {
+	padding-left: 0.2rem;
+}
+
+
+.nav-item {
+	padding-right: 1.5rem;
+	padding-left: 0.2rem;
+	font-size: 0.85rem;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #fff;
+}
+
+#NavDropdown {
+	color: #ffff;
+}
+
+.dropdown-item {
+	font-size: 0.7rem;
+	background-color: #FCFBF9;
+	padding-left: 0.1rem;
+}
+
+/*tudo*/
+.tudo {
+	font-family: 'Montserrat', sans-serif;
+	background-color: #FCFBF9;
+}
+
+/*imagem e article*/
+
+.catzinho {
+	width: 100%;
+}
+
+.ccontainer {
+	margin-left: 2rem;
+	margin-right: 2rem;
+}
+
+/*espaçamento*/
+.wow {
+	margin-top: 5rem;
+}
+
+/*texto*/
+
+#titulo {
+	font-weight: 600;
+	color: #0f0f0f;	
+}
+
+.textocorrido {
+	margin-left: 0.3rem;
+	margin-top: 1rem;
+	color: #0f0f0f;	
+}
+
+.containeri {
+	margin-top: 0.5rem;
+}
+
+.linky {
+	color: #0f0f0f;
+	font-weight: 600;
+	text-decoration: underline;
+}
+
+.linky:hover {
+	color: #0f0f0f;
+	font-weight: 600;
+}
+
+/* agendarrrr */
+
+
+.content {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.075), 0 2px 4px rgba(0, 0, 0, 0.0375);
+  padding: 30px 30px 20px;
+}
+
+
+.content {
+	margin-top: 8rem;
+	margin-bottom: 8rem;
+}
