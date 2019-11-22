@@ -282,3 +282,9 @@ input[type=submit]:hover {
 	.mgbottom {
 		height: 5rem;
 	}
+/* pular */
+
+#subtitle {
+	font-size: 1rem;
+	font-weight: 500;
+}
