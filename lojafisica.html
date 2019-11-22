@@ -23,7 +23,7 @@
 	<meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 	<meta name="theme-color" content="#ffffff">
 	 <!-- meu css -->
-  	<link rel="stylesheet" type="text/css" href="styles/forms.css">
+  	<link rel="stylesheet" type="text/css" href="styles/catxp.css">
   	<!-- fontawesome-->
   	<script src="https://kit.fontawesome.com/352a12bfbd.js" crossorigin="anonymous"></script>
   	<!-- fontes -->
@@ -35,7 +35,7 @@
       <!--AOS animate-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-	<title>Login | Coven Tea</title>
+	<title>Cat XP | Coven Tea</title>
 </head>
 <body>
 <a href="#main">Pular para conteúdo principal</a>
@@ -93,30 +93,27 @@
 
 		<main id="#main">
 			<div class="container-fluid">
-				<div class="row poi">
-					<div class="col-lg-6.offset-lg-3.col-md-8.offset-md-2" style="margin:auto">
-						<div class="content">
-							<form>
-								<h1 class="text-center" id="titulosdeform">login</h1>
-								  <div class="form-group form-texts">
-								    <label for="exampleInputEmail1">Endereço de e-mail</label>
-								    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite seu e-mail">
-								  </div>
-								    <div class="form-group form-texts">
-								    <label for="exampleInputPassword1">Senha</label>
-								    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Senha">
-								    <small id="emailHelp" class="form-text text-muted">Não tem uma conta?<br> Cadastre-se <a href="cadastro.html">clicando aqui</a>.</small>
-								  </div>
-								  <div class="container text-center">
-    								<input type="submit" value="Inscrever">
-  								</div>
-							</form>
-						</div>
-					</div>	
+				<div class="row wow">
+					<figure class="col-lg-6 col-md-12 ccontainer">
+						<img data-aos="fade-zoom-in" data-aos-easing="ease-in-back" data-aos-delay="300" data-aos-offset="0" class="catzinho img-fluid" src="imgs/catzinhooo.jpg" alt="foto de um gatinho sendo acariciado">
+					</figure>
+					<article data-aos="fade-right" data-aos-duration="1500" class="ccontainer col-lg-4 col-md-12 containeri">
+						<h1 id="titulo"><a id="idodtitulo" href="#pulartexto">NOSSA LOJA FÍSICA</a></h1>
+						<p class="textocorrido">Na <a class="linky" href="lojafisica.html">loja física</a> do <span lang="en">Coven Tea</span> você tem uma oportunidade muito única de passar o tempo com os gatinhos que lá habitam. A <span lang="en">Cat Experience</span>, ou "<span lang="en">Cat XP</span>" para os mais próximos, é uma oportunidade perfeita para quem precisa dar uma pausa na rotina da corrida que temos na cidade de São Paulo.</p>
+						<p class="textocorrido">Os períodos em que os gatos são mais ativos são de manhã, das 10:00 ao 12:00, e de noite, a partir das 17:00. Então para quem quer estudar, ou apenas passar um tempo mais tranquilo, o ideal é vir no intervalo entre esses horários.</p>
+						<p class="textocorrido">Além disso, todos os gatos estão disponíveis para adoção. Agende agora um horário e venha conhecer nossos gatinhos.</p>
+						<br>
+						<a id="pulartexto" class="custom-btn btn-6 vermais pen text-center" href="produtos-destaques.html" onclick="Calendly.showPopupWidget('https://calendly.com/kathleenyumi/cat-experience');return false;"></a>
+					</article>
 				</div>
 			</div>
 
-		<div class="container-fluid mgbottom col-12"></div>
+			<div class="container-fluid mgbottom col-12"></div>
+
+			<!-- Calendly link widget begin -->
+			<link href="https://calendly.com/assets/external/widget.css" rel="stylesheet">
+			<script src="https://calendly.com/assets/external/widget.js"></script>
+			<!-- Calendly link widget end -->
 		</main>
 	
 

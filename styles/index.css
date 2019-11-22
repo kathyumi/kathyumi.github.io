@@ -410,9 +410,6 @@ button {
 /* footer */
 /*form*/
 
-.formnewsletter {
-	width: 20rem;
-}
 
 input[type=text], input[type=submit] {
 
@@ -441,25 +438,6 @@ input[type=submit] {
 
 input[type=submit]:hover {
   opacity: 0.8;
-}
-#newsletter {
-  font-size: 1.1rem;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-}
-
-#newsletterinfo {
-	font-size: 0.8rem;
-	margin-bottom: 0.3rem;
-}
-
-
-/* footer geral*/
-/* footer */
-/*form*/
-
-.formnewsletter {
-  width: 20rem;
 }
 
 input[type=text], input[type=submit] {
@@ -508,17 +486,12 @@ input[type=submit]:hover {
   margin-right: 2rem;
 }
 
-#footer2 {
-
-}
-
 
 .titlefooter {
   font-size: 1.1rem;
   font-weight: 600;
   font-family: 'Montserrat', sans-serif;
 }
-
 
 .topicfooter {
   font-size: 0.75rem;
@@ -527,8 +500,9 @@ input[type=submit]:hover {
 }
 
 .topicfooter:hover {
-  color:  #0f0f0f;  
+  color:  #0f0f0f !important; 
 }
+
 /*redes sociais*/
 .rsi {
   color: #7f7f7f;
@@ -539,6 +513,44 @@ input[type=submit]:hover {
   color:  #0f0f0f;
   margin-right: 0.3rem;
 } 
+
+
+/* margin bottom page */
+  .mgbottom {
+    height: 5rem;
+  }
+
+/* teste */
+
+/* hover a, pon=branco, pen=preto, pin é do footer */
+
+.pon {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pon:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+.pen {
+  color: #000;
+  text-decoration: none;
+}
+
+.pen:hover {
+  color: #000;
+  text-decoration: none;
+}
+
+.pin {
+  color: #7f7f7f ;
+}
+.pin:hover {
+  text-decoration: none;
+  color:  #0f0f0f;
+}
 
 .fixalinhamento {
   text-align: center;
