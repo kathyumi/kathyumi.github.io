@@ -252,9 +252,6 @@ input[type=submit]:hover {
 	margin-right: 2rem;
 }
 
-#footer2 {
-
-}
 
 .titlefooter {
 	font-size: 1.1rem;
@@ -262,12 +259,12 @@ input[type=submit]:hover {
 }
 
 .topicfooter {
-	font-size: 0.8rem;
-	color: #7f7f7f;
+	font-size: 0.8rem !important;
+	color: #7f7f7f !important;
 }
 
 .topicfooter:hover {
-	color: 	#0f0f0f;	
+	color: 	#0f0f0f !important;	
 }
 
 /*redes sociais*/
