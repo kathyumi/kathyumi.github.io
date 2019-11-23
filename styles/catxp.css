@@ -1,4 +1,3 @@
-/* botões*/
 
 /* botoes especiais */
 .buttons-coll {
@@ -10,7 +9,7 @@ button {
   margin: 20px;
 }
 .custom-btn {
-  padding: 10px 25px;
+  padding: 10px 15px;
   font-family: "Roboto", sans-serif;
   font-weight: 500;
   background: transparent;
@@ -147,6 +146,7 @@ button {
 
 .catzinho {
 	width: 100%;
+
 }
 
 .ccontainer {
@@ -160,6 +160,10 @@ button {
 }
 
 /*texto*/
+
+.c1 {
+  margin-right: 6rem;
+}
 
 #titulo {
 	font-weight: 600;
