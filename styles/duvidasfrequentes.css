@@ -246,3 +246,17 @@ input[type=submit]:hover {
 .subsub {
 	margin-top: 3rem;
 }
+
+.titleaccordion {
+	color: #0f0f0f!important;
+	font-weight: 600!important;
+	font-family: 'Montserrat', sans-serif!important;
+	text-decoration: none!important;
+}
+
+.titleaccordion:hover {
+	color: #0f0f0f!important;
+	font-weight: 600;
+	font-family: 'Montserrat', sans-serif!important;
+	text-decoration: none!important;
+}
