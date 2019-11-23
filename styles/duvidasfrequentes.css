@@ -252,6 +252,7 @@ input[type=submit]:hover {
 	font-weight: 600!important;
 	font-family: 'Montserrat', sans-serif!important;
 	text-decoration: none!important;
+	white-space: normal!important;
 }
 
 .titleaccordion:hover {
@@ -259,4 +260,9 @@ input[type=submit]:hover {
 	font-weight: 600;
 	font-family: 'Montserrat', sans-serif!important;
 	text-decoration: none!important;
+	white-space: normal!important;
+}
+
+.allaccordion `{
+
 }
