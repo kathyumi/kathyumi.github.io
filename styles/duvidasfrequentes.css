@@ -1,113 +1,3 @@
-
-/* botoes especiais */
-.buttons-coll {
-  width: 90%;
-  margin: 50px auto;
-  text-align: center;
-}
-button {
-  margin: 20px;
-}
-.custom-btn {
-  padding: 10px 15px;
-  font-family: "Roboto", sans-serif;
-  font-weight: 500;
-  background: transparent;
-  outline: none !important;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  position: relative;
-  display: inline-block;
-}
-
-/**** BTN No. 6 ****/
-
-.btn-6 {
-	margin: auto;
-}
-
-.btn-6 {
-  width: 130px;
-  height: 40px;
-  line-height: 42px;
-  padding: 0;
-  border: none;
-
-}
-.btn-6 span {
-  position: relative;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-.btn-6:before,
-.btn-6:after {
-  position: absolute;
-  content: "";
-  height: 0%;
-  width: 2px;
-  background: #000;
-  color: #fff;
-}
-.btn-6:before {
-  right: 0;
-  top: 0;
-  transition: all 0.1s ease;
-}
-.btn-6:after {
-  left: 0;
-  bottom: 0;
-  transition: all 0.1s 0.2s ease;
-}
-.btn-6:hover:before {
-  transition: all 0.1s 0.2s ease;
-  height: 100%;
-}
-.btn-6:hover:after {
-  transition: all 0.1s ease;
-  height: 100%;
-}
-.btn-6 span:before,
-.btn-6 span:after {
-  position: absolute;
-  content: "";
-  background: #000;
-  color: #fff;
-}
-.btn-6 span:before {
-  left: 0;
-  top: 0;
-  width: 0%;
-  height: 2px;
-  transition: all 0.1s 0.1s ease;
-}
-.btn-6 span:after {
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  height: 2px;
-}
-.btn-6 span:hover:before {
-  width: 100%;
-}
-
-.btn-6:active{
-	background-color: #000;
-	color: #fff!important;
-}
-
-.btn-6:focus{
-  background-color: #000;
-  color: #fff;
-}
-
-
-.vermais {
-	margin: 0 auto;
-}
-
-
-
 /* navbar */
 .navbar {
     background-color: #fff;
@@ -332,9 +222,27 @@ input[type=submit]:hover {
   color:  #0f0f0f;
 }
 
-.card-title {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 1.5rem;
+/* main */
+
+.espacamento {
+	margin-top: 6rem;
 }
 
+#titulomaior {
+	font-weight: 600;
+}
+
+.espacotitulomaio {
+	margin-bottom: 3rem;
+}
+
+.subtitle {
+	font-weight: 600;
+	font-size: 1.8rem;
+	margin-left: 1rem;
+	margin-top: 2rem;
+}
+
+.subsub {
+	margin-top: 3rem;
+}
