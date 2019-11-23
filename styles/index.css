@@ -215,7 +215,7 @@ button {
 }
 
 .pen:hover {
-	color: #000;
+	color: #fff!important;
 	text-decoration: none;
 }
 
