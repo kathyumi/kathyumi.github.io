@@ -39,16 +39,6 @@
 }
 
 
-
-
-/* backgrounds */
-
-#bgproduct1 {
-	background-color: #ffcad4!important;
-	width: 100%;
-	height: 100%;
-}
-
 .produtorow {
 	margin-top: 4rem;
 }
@@ -275,3 +265,53 @@ input[type=submit]:hover {
 	color: 	#0f0f0f;
 	margin-right: 0.3rem;
 } 
+
+/* backgrounds */
+
+#bgproduct1 {
+	background-color: #ffcad4!important;
+	width: 100%;
+	height: 100%;
+}
+
+#bgproduct2 {
+	background-color: #d0e6a5!important;
+	width: 100%;
+	height: 100%;
+}
+
+#bgproduct3 {
+	background-color: #d3e8cf!important;
+	width: 100%;
+	height: 100%;
+}
+
+#bgproduct4 {
+	background-color: #eab595!important;
+	width: 100%;
+	height: 100%;
+} 
+
+#bgproduct5 {
+	background-color: #b9d4db!important;
+	width: 100%;
+	height: 100%;
+} 
+
+#bgproduct6 {
+	background-color: #baeaea!important;
+	width: 100%;
+	height: 100%;
+}
+
+#bgproduct7 {
+	background-color: #bfb8da!important;
+	width: 100%;
+	height: 100%;
+}
+
+#bgproduct8 {
+	background-color: #b9d4db!important;
+	width: 100%;
+	height: 100%;
+}
