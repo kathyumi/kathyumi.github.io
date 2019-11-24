@@ -300,3 +300,380 @@ input[type=submit]:hover {
 	font-size: 1rem !important;
 	font-weight: 500;
 }
+
+/* botao n11 verde */
+
+.btn-11v {
+  background: #d0e6a5;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11v:before,
+.btn-11v:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11v:before {
+  left: -10%;
+}
+.btn-11v:after {
+  right: -10%;
+}
+.btn-11v:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11v:hover:before {
+  left: 0%;
+}
+.btn-11v:hover:after {
+  right: 0%;
+}
+
+
+
+.btn-11g {
+  background: #d3e8cf;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11g:before,
+.btn-11g:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11g:before {
+  left: -10%;
+}
+.btn-11g:after {
+  right: -10%;
+}
+.btn-11g:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11g:hover:before {
+  left: 0%;
+}
+.btn-11g:hover:after {
+  right: 0%;
+}
+
+.btn-11g {
+  background: #d3e8cf;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11g:before,
+.btn-11g:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11g:before {
+  left: -10%;
+}
+.btn-11g:after {
+  right: -10%;
+}
+.btn-11g:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11g:hover:before {
+  left: 0%;
+}
+.btn-11g:hover:after {
+  right: 0%;
+}
+
+/*botao azul1*/
+ .btn-11b {
+  background: #baeaea;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11b:before,
+.btn-11b:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11b:before {
+  left: -10%;
+}
+.btn-11b:after {
+  right: -10%;
+}
+.btn-11b:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11b:hover:before {
+  left: 0%;
+}
+.btn-11b:hover:after {
+  right: 0%;
+}
+
+.btn-11b {
+  background: #baeaea;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11b:before,
+.btn-11b:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11b:before {
+  left: -10%;
+}
+.btn-11b:after {
+  right: -10%;
+}
+.btn-11b:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11b:hover:before {
+  left: 0%;
+}
+.btn-11b:hover:after {
+  right: 0%;
+}
+
+
+
+
+/*botao laranja 1*/
+.btn-11l {
+  background: #eab595;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11l:before,
+.btn-11l:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11l:before {
+  left: -10%;
+}
+.btn-11l:after {
+  right: -10%;
+}
+.btn-11l:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11l:hover:before {
+  left: 0%;
+}
+.btn-11l:hover:after {
+  right: 0%;
+}
+
+.btn-11l {
+  background: #eab595;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11l:before,
+.btn-11l:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11l:before {
+  left: -10%;
+}
+.btn-11l:after {
+  right: -10%;
+}
+.btn-11l:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11l:hover:before {
+  left: 0%;
+}
+.btn-11l:hover:after {
+  right: 0%;
+}
+
+/* botao azul 2*/
+
+.btn-11b2 {
+  background: #b9d4db ;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11b2:before,
+.btn-11b2:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11b2:before {
+  left: -10%;
+}
+.btn-11b2:after {
+  right: -10%;
+}
+.btn-11b2:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11b2:hover:before {
+  left: 0%;
+}
+.btn-11b2:hover:after {
+  right: 0%;
+}
+
+.btn-11b2 {
+  background: #b9d4db;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11b2:before,
+.btn-11b2:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11b2:before {
+  left: -10%;
+}
+.btn-11b2:after {
+  right: -10%;
+}
+.btn-11b2:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11b2:hover:before {
+  left: 0%;
+}
+.btn-11lb2:hover:after {
+  right: 0%;
+}
+
+/* botao lilás */ 
+
+.btn-11li {
+  background: #bfb8da;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11li:before,
+.btn-11li:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11li:before {
+  left: -10%;
+}
+.btn-11li:after {
+  right: -10%;
+}
+.btn-11li:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11li:hover:before {
+  left: 0%;
+}
+.btn-11li:hover:after {
+  right: 0%;
+}
+
+.btn-11li {
+  background: #bfb8da;
+  border: 2px solid #000;
+  transition: all 0.3s ease;
+}
+.btn-11li:before,
+.btn-11li:after {
+  position: absolute;
+  content: " ";
+  z-index: -1;
+  width: 25%;
+  top: 50%;
+  height: 2px;
+  background: #000;
+  transition: all 0.3s ease;
+}
+.btn-11li:before {
+  left: -10%;
+}
+.btn-11li:after {
+  right: -10%;
+}
+.btn-11li:hover {
+  background: #000;
+  color: #fff;
+}
+.btn-11li:hover:before {
+  left: 0%;
+}
+.btn-11lli:hover:after {
+  right: 0%;
+}
+
