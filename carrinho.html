@@ -38,7 +38,7 @@
     <!--AOS animate-->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 
-	<title>Chá Preto | Coven Tea</title>
+	<title>Blends | Coven Tea</title>
 
 </head>
 <body>
@@ -97,38 +97,94 @@
 
 <main id="main">
 	<!--destaques-->
-	<div class="container destaquerow">
-		<div data-aos="fade-up" data-aos-duration="1000" class="row align-items-center">
-			<div class="container-fluid col-xs-col-2 col-lg-4 col-md-8 col-sm-10" id="texto-destaques">
-				<div class="align-items-center">
-				<h1 data-aos="zoom-in" data-aos-duration="500" id="queridinhos" class="text-center">chá preto</h1>
-				<h2 id="subtitle" data-aos="zoom-in" data-aos-duration="1000" class="text-center">Um dos tipos de chás mais conhecidos e com sabor mais pronunciado.</h2>
-				</div>
-			</div>
-			<figure class="destaques col-lg-4 col-md-12 dproduto">
-				<img class="produtoimagem destaque img-fluid" src="imgs/chas/earlgreyy.png" alt="Pacote de chá preto inglês">
-				<div class="middle">
-				<div>
-					<h2 class="titlecha"><span lang="en">EARL GREY</span></h2>
-					<h3 class="preco">R$45,00</h3>
-					<a class="custom-btn btn-11l pen" href="produto-earlgrey.html">Ver Produto</a>
-				</div>
-			</div>
-			</figure>
-			<figure class="destaques col-lg-4 col-md-12 dproduto">
-				<img class="produtoimagem destaque img-fluid" src="imgs/chas/kochaa.png" alt="Pacote de chá preto japonês">
-				<div class="middle">
-				<div>
-					<h2 class="titlecha">KOCHA</h2>
-					<h3 class="preco">R$25,00</h3>
-					<a class="custom-btn btn-11l pen" href="produto-kocha.html">Ver Produto</a>
-				</div>
-			</div>
-			</figure>
-		</div>
-	</div>
 
-	<div class="container-fluid mgbottom col-12"></div>
+				<div class="pb-5">
+				    <div class="container">
+				      <div class="row">
+				        <div class="col-12 bg-white rounded shadow-sm mb-5" style="margin-top: 5rem;">
+
+				          <!-- Shopping cart table -->
+				          <div class="table-responsive">
+				            <table class="table">
+				              <thead>
+				                <tr>
+				                  <th scope="col" class="border-0">
+				                    <div class="p-2 px-3 text-uppercase">Meu carrinho</div>
+				                </tr>
+				              </thead>
+				              <tbody>
+				                <tr>
+				                  <th scope="row" class="border-0">
+				                    <div class="p-2">
+				                      <img src="imgs/senchazinho.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+				                      <div class="ml-3 d-inline-block align-middle">
+				                        <h5 class="mb-0"> <a href="produto-sakurasencha.html" class="text-dark d-inline-block align-middle">Sakura Sencha</a></h5><span class="text-muted font-weight-normal font-italic d-block">Categoria: Blends</span>
+				                      </div>
+				                    </div>
+				                  </th>
+				                  <td class="border-0 align-middle"><strong>R$65.00</strong></td>
+				                  <td class="border-0 align-middle"><strong>1</strong></td>
+				                  <td class="border-0 align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a></td>
+				                </tr>
+				                <tr>
+				                  <th scope="row">
+				                    <div class="p-2">
+				                      <img src="imgs/jasminezinho.jpg" alt="" width="70" class="img-fluid rounded shadow-sm">
+				                      <div class="ml-3 d-inline-block align-middle">
+				                        <h5 class="mb-0"><a href="produto-bloomingjasmine.html" class="text-dark d-inline-block">Blooming Jasmine</a></h5><span class="text-muted font-weight-normal font-italic">Categoria: Blooming teas</span>
+				                      </div>
+				                    </div>
+				                  </th>
+				                  <td class="align-middle"><strong>R$23.00</strong></td>
+				                  <td class="align-middle"><strong>2</strong></td>
+				                  <td class="align-middle"><a href="#" class="text-dark"><i class="fa fa-trash"></i></a>
+				                  </td>
+				                </tr>
+				              </tbody>
+				            </table>
+				          </div>
+				          <!-- End -->
+				        </div>
+				      </div>
+
+				      <div class="row py-5 p-4 bg-white rounded shadow-sm">
+				        <div class="col-lg-6">
+				          <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Código de cupom</div>
+				          <div class="p-4">
+				            <p class="font-italic mb-4">Se você tiver um cupom, digite o código abaixo.</p>
+				            <div class="input-group mb-4 border rounded-pill p-2">
+				              <input type="text" placeholder="Apply coupon" aria-describedby="button-addon3" class="form-control border-0">
+				            </div>
+				            				              <div class="input-group-append border-0">
+				                <button id="button-addon3" type="button" class="btn btn-dark px-4 rounded-pill"><i class="fa fa-gift mr-2"></i>Aplicar cupom</button>
+				              </div>
+				          </div>
+				          <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Instruções</div>
+				          <div class="p-4">
+				            <p class="font-italic mb-4">Se você tem alguma instrução específica sobre a entrega, digite abaixo.</p>
+				            <textarea name="" cols="30" rows="2" class="form-control"></textarea>
+				          </div>
+				        </div>
+				        <div class="col-lg-6">
+				          <div class="bg-light rounded-pill px-4 py-3 text-uppercase font-weight-bold">Resumo da compra </div>
+				          <div class="p-4">
+				            <p class="font-italic mb-4">Taxa de entrega e valores adicionais são calculados de acordo com os valores inseridos por você.</p>
+				            <ul class="list-unstyled mb-4">
+				              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Subtotal </strong><strong>R$111.00</strong></li>
+				              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Taxa de entrega</strong><strong>R$10.00</strong></li>
+				              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Outras taxas</strong><strong>$0.00</strong></li>
+				              <li class="d-flex justify-content-between py-3 border-bottom"><strong class="text-muted">Total</strong>
+				                <h5 class="font-weight-bold">R$121.00</h5>
+				              </li>
+				            </ul><a href="#" class="btn btn-dark rounded-pill py-2 btn-block">Finalizar compra</a>
+				          </div>
+				        </div>
+				      </div>
+
+				    </div>
+				  </div>
+				</div>
+				<div class="container-fluid mgbottom col-12" style="background-color: #FCFBF9;"></div>
 </main>
 </div>
 
@@ -208,4 +264,3 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 
 </body>
-</html>
