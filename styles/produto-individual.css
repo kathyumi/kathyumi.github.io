@@ -38,20 +38,250 @@
 	background-color: #FCFBF9;
 }
 
-.imagepouch {
-	width: 100%;
-	height: 35rem;
-}
-
-
 
 
 
 /* backgrounds */
 
 #bgproduct1 {
-	background-color: #ffcad4;
+	background-color: #ffcad4!important;
 	width: 100%;
-	height: 46rem;
+	height: 100%rem;
 }
 
+.produtorow {
+	margin-top: 4rem;
+}
+
+#pdes {
+	margin-top: 7.2rem;
+	margin-left: 1rem;
+}
+
+#productname {
+	font-weight: 600;
+	font-size: 3rem;
+}
+
+#subtitleproduct {
+	font-family: 'Roboto', sans-serif;
+	font-size: 1.5rem;
+	color: #606060;
+}
+
+#productdescription {
+	margin-top: 3rem;
+	white-space: normal;
+	display: block;
+}
+
+#quantidade {
+	font-weight: 600;
+}
+
+#divdiv {
+	margin-top: 3.5rem;
+}
+
+.lan {
+	margin-top: 3.5rem;
+	margin-left: 5rem;
+}
+
+.cin {
+	margin-top: 5rem;
+}
+
+.ingredientestitle {
+	margin: auto;
+	font-family: 'Allura', cursive;
+	font-size: 4.5rem;
+}
+
+.ingredientes {
+	margin: auto;
+	margin-top: 1rem;
+}
+
+li {
+	list-style: none;
+}
+
+.pi {
+	display: inline-block;
+	margin-bottom: 4rem;
+}
+
+.iconsrow {
+	text-align: center;
+	margin-top: 2.5rem;
+	margin-bottom: 3rem;
+}
+
+
+.instruction 
+{
+	font-family: 'Montserrat', sans-serif;
+}
+
+.iconezinho {
+	margin-bottom: 1rem;
+}
+
+#precoo {
+	color: #4a4a4a;
+	font-size: 1.5rem;
+	font-family: "Roboto", sans-serif;
+}
+/* botoes especiais */
+input[type=text], input[type=submit] {
+
+  padding: 0.5rem;
+  margin: 0.2rem; 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=text]{
+  width: 100%;
+}
+
+input[type=submit]{
+  width: 100%;
+}
+
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  border: 1px #000;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+#botao {
+	width: 100%;
+}
+/* hover a, pon=branco, pen=preto, pin é do footer */
+
+.pon {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pon:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pen {
+	color: #000;
+	text-decoration: none;
+}
+
+.pen:hover {
+	color: #fff;
+	text-decoration: none;
+}
+
+.pin {
+	color: #7f7f7f ;
+}
+.pin:hover {
+	text-decoration: none;
+	color: 	#0f0f0f;
+}
+
+
+/* footer */
+.pin {
+	color: #7f7f7f ;
+}
+.pin:hover {
+	text-decoration: none;
+	color: 	#0f0f0f;
+}
+/* footer */
+/*form*/
+
+.formnewsletter {
+	width: 20rem;
+}
+
+input[type=text], input[type=submit] {
+
+  padding: 0.5rem;
+  margin: 0.2rem; 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=text]{
+  width: 100%;
+}
+
+input[type=submit]{
+  width: 50%;
+}
+
+
+input[type=submit] {
+  background-color: #000;
+  color: white;
+  border: none;
+  font-family: 'Roboto', sans-serif;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+#newsletter {
+	font-size: 1.1rem;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
+}
+
+#newsletterinfo {
+	font-size: 0.8rem;
+	margin-bottom: 0.3rem;
+}
+
+
+/* footer geral*/
+#footer1, #footer2{
+	list-style: none;
+	margin-right: 2rem;
+}
+
+
+.titlefooter {
+	font-size: 1.1rem;
+	font-weight: 600;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.topicfooter {
+  font-size: 0.75rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #7f7f7f;
+}
+
+.topicfooter:hover {
+	color: 	#0f0f0f !important;	
+}
+
+/*redes sociais*/
+.rsi {
+	color: #7f7f7f;
+	margin-right: 0.3rem;
+}
+
+.rsi:hover {
+	color: 	#0f0f0f;
+	margin-right: 0.3rem;
+} 
